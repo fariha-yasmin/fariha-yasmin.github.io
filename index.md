@@ -1,8 +1,7 @@
 ---
 layout: home
+title: Home
 ---
-
-# Welcome to My Blog
 
 Hi, I'm Fariha. This is my personal blog where I write about physics, computational materials science, DFT, Quantum ESPRESSO, and things I'm learning along the way.
 
