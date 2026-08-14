@@ -1,3 +1,9 @@
-title: Fariha's Blog
-description: Physics, computational materials science, and technical learning
-theme: minima
+title: "Fariha Yasmin"
+description: "Physics, computational materials science, DFT, and Quantum ESPRESSO"
+
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
