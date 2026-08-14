@@ -1,7 +1,8 @@
 ---
-layout: page
-title: About Me
+title: "About Me"
 permalink: /about/
+layout: single
+author_profile: true
 ---
 
 Hi, I'm Fariha! I'm passionate about physics, computational materials science, and Density Functional Theory (DFT), and I enjoy working with tools like Quantum ESPRESSO.

@@ -7,3 +7,14 @@ minimal_mistakes_skin: "default"
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
+  author:
+  name: "Fariha Yasmin"
+  bio: "Physics student — Computational Materials Science, DFT, Quantum ESPRESSO"
+  location: "Bangladesh"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:yasminfariha393@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/fariha-yasmin"
