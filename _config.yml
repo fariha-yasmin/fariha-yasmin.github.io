@@ -4,14 +4,17 @@ description: "Physics, computational materials science, DFT, and Quantum ESPRESS
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default"
 
+repository: "fariha-yasmin/fariha-yasmin.github.io"
+timezone: "Asia/Dhaka"
+
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
 author:
   name: "Fariha Yasmin"
-  bio: "Physics student — Computational Materials Science, DFT, Quantum ESPRESSO"
-  location: "Bangladesh"
+  bio: "Physics student at SUST — DFT, Quantum ESPRESSO, perovskite photovoltaics, machine learning"
+  location: "Sylhet, Bangladesh"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -24,3 +27,24 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  notes:
+    output: true
+    permalink: /notes/:path/
+
+defaults:
+  # notes — reference notes and cheatsheets
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # blog posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
