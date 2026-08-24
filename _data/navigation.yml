@@ -9,6 +9,8 @@ main:
     url: /notes/
   - title: "Publications"
     url: /publications/
+  - title: "CV"
+    url: /cv/
   - title: "About"
     url: /about/
   - title: "Contact"
